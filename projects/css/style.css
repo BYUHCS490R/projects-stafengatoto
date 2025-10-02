@@ -1,0 +1,40 @@
+body {
+    font-family:'Times New Roman', Times, serif
+    font-size: 16px;
+}
+header h1 {
+    color:brown;
+}
+#title {
+    color:aqua;
+}
+.imp {
+    color:blue
+}
+main h3 {
+    color:rgb(21, 236, 10)
+}
+#position {
+    color:rgb(247, 11, 113)
+}
+#team {
+    color:rgb(247, 11, 113)
+}
+#place {
+    color:rgb(247, 11, 113)
+}
+.dif {
+    color:rgb(9, 196, 134)
+}
+#nimp {
+    color: rgb(219, 13, 234);
+}
+#deem {
+    color: rgb(219, 13, 234);
+}
+#dem {
+    color: rgb(219, 13, 234);
+}
+.last {
+    color:rgb(21, 236, 10)
+}
