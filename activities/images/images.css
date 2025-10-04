@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.surf {
+    width:500px;
+}
+header h1 {
+    color:rgb(236, 27, 27)
+}
+main h1 {
+    color: rgb(24, 9, 229);
+}
+.dif {
+    color: rgb(85, 193, 157);
+}
+#copy {
+    color: rgb(74, 5, 5);
+}
