@@ -1,5 +1,7 @@
 body {
     background-image: url(green.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
     color: rgb(224, 248, 7);
 }
 main h1 {
