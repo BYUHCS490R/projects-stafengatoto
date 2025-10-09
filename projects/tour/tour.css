@@ -1,0 +1,10 @@
+body {
+    background-image: url(green.jpg);
+    color: rgb(224, 248, 7);
+}
+main h1 {
+    color: azure;
+}
+main p {
+    color: aqua;
+}
