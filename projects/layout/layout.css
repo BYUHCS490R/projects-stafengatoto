@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(20, 231, 55);
+    font-size:medium;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 150%;
+    text-transform: capitalize;
+    text-shadow: none;
+    padding-left: 0%;
+}
+#wrapper {
+    background-color: rgb(243, 38, 38);
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-image: url(sila.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+img {
+    width: 30%;
+    height: auto;
+    float: left;
+    border: thick solid black;
+    border-radius: 10%;
+    box-shadow:rgb(220, 231, 20);
+}
