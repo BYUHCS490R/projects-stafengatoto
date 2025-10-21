@@ -1,0 +1,16 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+.parent {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.child {
+    background-color: aqua;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
