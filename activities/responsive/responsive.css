@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+header {
+    background-color: rgb(23, 23, 217);
+    color: white;
+}
+.sidebar{
+    background-color: rgb(44, 222, 165);
+    margin-right: 10px;
+}
+.sidebar h3 {
+    margin: 0%;
+}
+main h2 {
+    margin: 0%;
+}
+header h1 {
+    margin: 0%;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(100, 100, 231);
+}
+nav a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(100, 100, 231);
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: rgb(100, 100, 231);
+}
+.main-row {
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.sidebar {
+    width: 200px;
+}
+.card {
+    border: thin solid rgb(2, 22, 0);
+    box-shadow: 3px 3px 5px rgba(21, 200, 45, 0.6);
+    width: 300px;
+    margin: 5px;
+}
+.card img {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
