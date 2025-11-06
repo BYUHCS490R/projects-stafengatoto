@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    margin: 0;
+}
+header {
+    background-color: rgb(204, 26, 26);
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.father {
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside {
+    background-color: rgb(226, 43, 174);
+    padding: 20px;
+    width: 25%;
+    margin-left: 20px;
+    right: inherit;
+}
+table {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 5px red
+}
+caption {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(5, 250, 250);
+    padding: 5px
+}
+.child1 {
+    background-color: aquamarine;
+    color: rgb(57, 40, 242);
+}
+.child2 {
+    background-color: rgb(230, 230, 29);
+}
+.child3 {
+    background-color: blanchedalmond;
+}
+.child4 {
+    background-color: rgb(67, 231, 110);
+}
+.child5 {
+    background-color: rgb(236, 44, 44);
+}
