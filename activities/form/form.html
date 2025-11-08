@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Sione's Web Design</h1>
+    </header>
+    <nav>
+        
+    </nav>
+     <main>
+        <h1>Forms</h1>
+        <form action="formprocess.html" method="get">
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" placeholder="Full Name" id="fname">
+            </div>
+            <div>
+                <label for="fname">Email:</label>
+                <input type="email" name="fullname" placeholder="your@email.com" id="fname">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="text" name="pass" id="pass">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank">---</option>
+                    <option value="CA">California</option>
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <label><input type="checkbox"> I agree to the terms</label>
+            </div>
+            <div>
+                Gender
+                <label><input type="radio" name="gender" value="Male">Male</label>
+                <label><input type="radio" name="gender" value="Female">Female</label>
+            </div>
+            <div>
+                <label for="comment">Comments:</label>
+                <textarea name="comment" id="comment">Hello</textarea>
+            </div>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>The action attribute is a html form tag that tells the browser where to send the form's data when the user clicks submit.</p>
+        <p>The method attribute defines the way the data is sent either visible in the URL or hidden in the request lobby.</p>
+        <p>The GET tag you use it to retrieve or request information and the POST tag you use it for sending, change, add, update or to remove information.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Sione Tafengatoto</p>
+    </footer>
+</body>
+</html>
