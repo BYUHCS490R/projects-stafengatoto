@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(20, 162, 162);
+}
+nav{
+    display: flex;
+    background: rgb(12, 46, 121);
+}
+nav a{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin: auto;
+}
+.form-row, .check-row {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 15px 0;
+}
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+.form-row input {
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.check-row label{
+    display: inline-block;
+}
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+.font-row input:not([type="submit"]) {
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(46, 37, 141)
+}
+fieldset {
+    background-color: rgb(229, 159, 74);
+    width: 70%;
+    margin: auto;
+}
+legend {
+    background-color: rgb(210, 35, 8);
+    color: aliceblue;
+    padding: 20px;
+}
+header, footer {
+    background: rgb(215, 33, 17);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+@media ONLY screen AND (max-width: 480px) {
+    .form-row, .check-row{
+        flex-direction: column;
+    }
+    .form-row label, .spacer {
+        text-align: left;
+    }
+}
