@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <header>
+        <h1>Registration Form For Volleyball</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Forms</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+     <main>
+        <h2>Sign Up</h2>
+        <div id="message"></div>
+        <form id="myform" action="formprocess.html" method="get">
+            <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-row">
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" placeholder="Full Name" id="fname">
+            </div>
+            <div class="form-row">
+                <label for="fname">Email:</label>
+                <input type="email" name="fullname"id="fname">
+            </div>
+            <div class="form-row">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div class="form-row">
+                <label for="pass">Password:</label>
+                <input type="text" name="pass" id="pass">
+            </div>
+            </fieldset>
+            <fieldset>
+            <legend>More Information</legend>
+             <div class="check-row">
+                <div class="spacer">Gender</div>
+                <label><input type="radio" name="gender" value="Male">Male</label>
+                <label><input type="radio" name="gender" value="Female">Female</label>
+            </div>
+            <div class="check-row">
+                <div class="spacer">Position:</div>
+                <label><input type="checkbox" name="position" value="Outside Hitter">Outside Hitter</label>
+                <label><input type="checkbox" name="position" value="Opposite Hitter">Opposite Hitter</label>
+                <label><input type="checkbox" name="position" value="Middle Blocker">Middle Blocker</label>
+                <label><input type="checkbox" name="position" value="Setter">Setter</label>
+                <label><input type="checkbox" name="position" value="Libero">Libero</label>
+            </div>
+            <div class="form-row">
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank">---</option>
+                    <option value="CA">California</option>
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div class="check-row">
+                <div class="spacer">Terms & Conditions:</div>
+                <label><input type="checkbox"> I agree to the terms</label>
+            </div>
+           
+            <div class="form-row">
+                <label for="comment">Comments:</label>
+                <textarea name="comment" id="comment">Hello</textarea>
+            </div>
+            <div class="form-row">
+                <div class="spacer"></div>
+                <input type="submit" value="Sign Up">
+            </div>
+            </fieldset>
+        </form>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Sione Tafengatoto</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
