@@ -6,7 +6,7 @@ document.getElementById('myform').addEventListener('submit', function(event) {
     const password = document.getElementById('pass').value.trim();
 
 
-    if (!name.includes(" ") || name.split(" ").length < 2) {
+    if (!fullname.includes(" ") || fullname.split(" ").length < 2) {
         alert("Please provide your full name (first and last).");
         return;
     }
