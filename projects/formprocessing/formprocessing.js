@@ -1,21 +1,22 @@
+console.log("loaded");
 document.getElementById('myform').addEventListener('submit', function(event) {
+    console.log("Submit pressed")
     event.preventDefault();
 
-    const fullname = document.getElementById('name').values;
+    const fullname = document.getElementById('name').value;
     const idnum = document.getElementById('phone').value.trim();
     const password = document.getElementById('pass').value.trim();
 
 
     if (!fullname.includes(" ") || fullname.split(" ").length < 2) {
-        alert("Please provide your full name (first and last).");
+        alert('Please provide your full name (first and last).');
         return;
     }
 
-    // // Phone number must be exactly 10 digits
-    // const phonePattern = /^[0-9]{10}$/;
-
-    if (!phonePattern.test(phone)) {
-        alert("Your phone number must be exactly 10 digits.");
+    // 10 digits only
+    const phonePattern = /^\d{10}$/;
+    if (!phonePattern.test(idnum)) {
+        alert('Your phone number must be exactly 10 digits.');
         return;
     }
 
