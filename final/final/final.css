@@ -3,18 +3,16 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: rgb(212, 107, 107);
 }
 header {
     padding: 10px 0;
+    
 }
-
-
-
 
 table {
     width: 80%;
     margin: 20px auto;
-    
 }
 td {
     border: 1px solid black;
