@@ -10,6 +10,18 @@ header {
     
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a {
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: auto;
+}
+
 table {
     width: 80%;
     margin: 20px auto;
@@ -24,3 +36,35 @@ caption {
     font-weight: bold;
 }
 
+.form {
+   display: flex;
+   gap: 8px;
+   margin: 15px 0 15px 0;
+}
+.form label{
+    width: 150px;
+    text-align: right;
+}
+.form input{
+    padding: 7px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset{
+    background-color: rgb(167, 202, 202);
+    width: 80%;
+    margin: auto;
+}
+legend{
+    background-color: rgb(7, 166, 234);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+@media ONLY screen AND (max-width: 600px) {
+    nav a {
+        flex-direction: column;
+    }
+}
