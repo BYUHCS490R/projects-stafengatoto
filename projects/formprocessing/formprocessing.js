@@ -20,19 +20,14 @@ document.getElementById('myform').addEventListener('submit', function(event) {
         return;
     }
 
-    alert("Form Submitted Succesfully!");
+    // alert("Form Submitted Succesfully!");
 
     const formData = {
         name: fullname,
         phone: idnum,
         password: pass
     };
-
-
-
     console.log(formData);
-
-
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "submit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json;character=UTF-8");
@@ -42,10 +37,10 @@ document.getElementById('myform').addEventListener('submit', function(event) {
             alert("Form submitted successfully!");
             const response = JSON.parse(xhr.responseText);
             console.log(response);
-            //document.getElementById('myForm').reset();
+            // document.getElementById('myForm').reset();
             document.getElementById('myform').innerHTML = '';
             document.getElementById('message').innerText = response.message;
-        } else if (xhr.readyState === 4) {
+        } else {
             alert("Error submitting form.");
         }
     };

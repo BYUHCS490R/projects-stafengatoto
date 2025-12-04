@@ -3,31 +3,96 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: rgb(212, 107, 107);
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
 }
 header {
     padding: 10px 0;
-    
+
 }
 
 nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(17, 17, 17);
+    padding: 15px 0;
 }
 nav a {
+    color: rgb(255, 204, 0);
     font-weight: bold;
     padding: 8px 12px;
     border-radius: 5px;
     margin: auto;
+    text-decoration: none;
 }
+
+#home {
+    background: rgb(102, 96, 96);
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 20px;
+}
+#profile {
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+
+.pic {
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+
+
+
+.gun {
+    width: 60%;
+    max-width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+
+
+.video {
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+#youtube{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    margin: 25px auto;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+
+
 
 table {
     width: 80%;
     margin: 20px auto;
+    border-collapse: collapse;
 }
 td {
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 12px;
 }
 caption {
@@ -35,6 +100,10 @@ caption {
     margin-bottom: 15px;
     font-weight: bold;
 }
+.n1 {
+    background-color: #c9b609;
+}
+
 
 .form {
    display: flex;
@@ -64,7 +133,13 @@ legend{
 }
 
 @media ONLY screen AND (max-width: 600px) {
-    nav a {
+    .form {
         flex-direction: column;
+    }
+    .form label {
+        text-align: left;
+    }
+    .video {
+        height: 220px;
     }
 }
