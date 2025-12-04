@@ -1,59 +1,84 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    background-color: black;
+    padding: 0;
 }
-header {
-    background-color: bisque;
+header, footer {
+    background-color: rgb(231, 170, 47);
     color: aliceblue;
     text-align: center;
-    padding: 5px;
-}
-header {
-    background-color: rgb(23, 23, 217);
-    color: white;
-}
-.cards{
-    border: thin solid rgb(2, 22, 0);;
-    
-}
-.cards h3 {
-    margin: 0%;
-}
-main h2 {
-    margin: 0%;
-}
-header h1 {
-    margin: 0%;
+    padding: 6px;
 }
 nav {
+    padding: 10px 0;
+    background-color: rgb(82, 197, 62);
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(100, 100, 231);
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243, 214, 127);
+}
+nav li{
+    margin: 0 10px;
 }
 nav a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
-    background-color: rgb(100, 100, 231);
-    color: white;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin: auto;
+    padding: 5px 10px;
 }
-nav a:hover{
-    background-color: white;
-    color: rgb(100, 100, 231);
-}
+
 .cards {
     display: flex;
-    width: 100%;
-    background-color: antiquewhite;
+    flex-wrap: wrap;
 }
-.card {
-    border: thin solid rgb(2, 22, 0);
-    box-shadow: 3px 3px 5px rgba(21, 200, 45, 0.6);
-    width: 300px;
-    margin: 5px;
-    display: inline-block;
+aside {
+    width: 23%;
+    padding: 10px;
+    background-color: rgb(141, 94, 94);
 }
-.card img {
+aside img {
     width: 100%;
+    
+}
+main {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+article {
+    width: 23%;
+    background-color: rgb(226, 196, 99);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+article img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+@media print {
+    nav, footer {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    article {
+        width: 80%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
