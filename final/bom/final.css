@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
+}
+header {
+    padding: 10px 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(17, 17, 17);
+    padding: 15px 0;
+}
+nav a {
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.car {
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 3px solid rgb(246, 246, 6);
+    box-shadow: 0 4px 20px;
+}
+
+.card {
+    max-width: 5000px;
+    margin: 25px auto;
+    padding: 25px;
+    background: rgb(174, 125, 125);
+    border-radius: 10px;
+}
+
+.quote {
+    max-width: 5000px;
+    margin: 25px auto;
+    padding: 25px;
+    background: rgb(116, 171, 83);
+    border-radius: 10px;
+
+}
+.poem {
+    background: #3a735b;
+    padding: 20-x;
+    border-radius: 10px;
+    border-left: 5px solid #e91e63;
+    font-size: 25px;
+}
